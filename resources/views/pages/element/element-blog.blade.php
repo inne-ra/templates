@@ -156,7 +156,7 @@ Version:1.0.0
 
                         <li class="active dropdown">
 
-                            <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                            <a href="{{ url('/')}}" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 
                             <ul class="dropdown-menu">
 
@@ -646,7 +646,7 @@ Version:1.0.0
 
             <!-- End Navigation -->
 
-            <section class="inner-intro  small-intro dark-bg bg bg-fixed overlay jarallax"data-jarallax='{"speed": 0.2}'data-overlay-color="dark"data-overlay="2"data-bg-img="images/banner.jpg">
+            <section class="inner-intro  small-intro dark-bg bg bg-fixed overlay jarallax"data-jarallax='{"speed": 0.2}'data-overlay-color="dark"data-overlay="2"data-bg-img="{{ asset('templates/kkr021/images/banner.jpg')}}">
 
                 <div class="container">
 
@@ -892,7 +892,7 @@ Version:1.0.0
 
                                         </div>
 
-                                        <img class="img-responsive"src="images/blog/blog1.jpg">
+                                        <img class="img-responsive"src="images/blog/blog1.jpg')}}">
 
                                     </div>
 
@@ -938,7 +938,7 @@ Version:1.0.0
 
                                         </div>
 
-                                        <img class="img-responsive"src="images/blog/blog2.jpg">
+                                        <img class="img-responsive"src="images/blog/blog2.jpg')}}">
 
                                     </div>
 
@@ -984,7 +984,7 @@ Version:1.0.0
 
                                         </div>
 
-                                        <img class="img-responsive"src="images/blog/blog3.jpg">
+                                        <img class="img-responsive"src="images/blog/blog3.jpg')}}">
 
                                     </div>
 
@@ -1030,7 +1030,7 @@ Version:1.0.0
 
                                         </div>
 
-                                        <img class="img-responsive"src="images/blog/blog4.jpg">
+                                        <img class="img-responsive"src="images/blog/blog4.jpg')}}">
 
                                     </div>
 
@@ -1082,7 +1082,7 @@ Version:1.0.0
 
                                                 Victoria 3000,<br>Australia</span></li>
 
-                                                <li><i class="icon-envelope"></i><span>support@yourname.com</span></li>
+                                                <li><i class="icon-envelope"></i><span>support@remotehub.id</span></li>
 
                                                 <li><i class="icon-phone"></i><span>(+91) 123-456-7890</span></li>
 
@@ -1160,7 +1160,7 @@ Version:1.0.0
 
                                     <div class="row">
 
-                                        <div class="col-sm-6">© 2017 Uncode All rights reserved</div>
+                                        <div class="col-sm-6">© 2018 <a href="http://www.soerojo.com" target="_blank">Soerojo S.H. & Rekan</a> - All rights reserved</div>
 
                                         <div class="col-sm-6 text-right">
 

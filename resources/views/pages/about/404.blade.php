@@ -44,62 +44,37 @@
          <link rel="shortcut icon" href="favicon.ico"/>
       </head>
       <body>
-              <!-- Preloader -->
+       <!-- Preloader -->
         <div id="preloader">
           <div class="clear-loading loading-effect"><img src="{{ asset('templates/kkr021/images/loading.gif')}}" width="100" alt=""></div>
         </div>
 	  
-	  <!-- coming-soon -->
-         <section class="coming-soon p-0 pos-r">
-            <div class="fullbg bg-pos-right " data-bg-img="images/main/bg1.jpg')}}" ></div>
+	  <!-- 404 -->
+         <section class="error-404 p-0 pos-r">
+            <div class="fullbg" data-bg-img="{{ asset('templates/kkr021/images/main/bg-2.jpg')}}" ></div>
             <div class="container">
                <div class="row">
-                  <div class="col-md-6 col-sm-8 text-center">
-                     <div class="py-7 pr-7 xs-pr-0 xs-py-5 coming-block text-center">
+                  <div class="col-md-6 col-sm-8 col-sm-offset-4 col-md-offset-6">
+                     <div class="py-7 pl-7 xs-pl-0 xs-py-5 block-404 text-center">
                         <div class="valign-middle">
-                           <span class="label-coming theme-text mb-1">Coming Soon</span>
-                           <p>Eorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor abore dolore magna aliqua aut enim minim veniama nostrud exsa sed citation saboris</p>
-                           <h4 class="text-uppercase mb-0"><i class="icon-envelope-letter icons" aria-hidden="true"></i> Provide your email address!</h4>
-                           <p class="mb-2">We will notify you when site is ready :</p>
+                           <span class="label-404 theme-text">404</span>
+                           <h4 class="text-uppercase not-found mb-1"><i class="fa fa-search" aria-hidden="true"></i> Nothing was Found</h4>
+                           <p class="mb-2">It looks like nothing was found. Maybe try a search? </p>
                            <form role="form" class="search-form">
                               <div class="form-group">
-                                 <input name="search" class="form-control" placeholder="Notify Me" type="text">
+                                 <input name="search" class="form-control" placeholder="Search" type="text">
                                  <a href="#" class="submit"><i class="icon-magnifier icons" aria-hidden="true"></i></a>
                               </div>
                            </form>
-                           <ul class="countdown list-unstyled mb-3">
-                              <li>
-                                 <span class="days theme-text">302</span>
-                                 <p class="days_ref">Days</p>
-                              </li>
-                              <li>
-                                 <span class="hours theme-text">10</span>
-                                 <p class="hours_ref">Hours</p>
-                              </li>
-                              <li>
-                                 <span class="minutes theme-text">42</span>
-                                 <p class="minutes_ref">Minutes</p>
-                              </li>
-                              <li>
-                                 <span class="seconds theme-text">36</span>
-                                 <p class="seconds_ref">Seconds</p>
-                              </li>
-                           </ul>
-                           <div class="social-icons color-hover text-center mt-1">
-                              <ul>
-                                 <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                 <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                 <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                 <li class="social-youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
-                              </ul>
-                           </div>
+                           <div class="text-center"><a href="#" class="btn btn-default theme-border theme-text animated btn-outline icon-left btn-radius"><i class="icon-home icons" aria-hidden="true"></i> Back to Home</a></div>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </section>
-       <!-- End coming-soon -->
+      <!-- End 404 -->
+         <!-- jquery  -->
          <!-- jquery  -->
          <script type="text/javascript" src="{{ asset('templates/kkr021/js/jquery.min.js')}}"></script>
          <!-- bootstrap -->
@@ -110,8 +85,6 @@
          <script type="text/javascript" src="{{ asset('templates/kkr021/js/owl-carousel/owl.carousel.min.js')}}"></script>
          <!-- counter -->
          <script type="text/javascript" src="{{ asset('templates/kkr021/js/counter/jquery.countTo.js')}}"></script>
-         <!-- countdown -->
-         <script type="text/javascript" src="{{ asset('templates/kkr021/js/countdown/jquery.downCount.js')}}"></script>
          <!-- counter -->
          <script type="text/javascript" src="{{ asset('templates/kkr021/js/jquery.piechart.js')}}"></script>
          <!-- magnific popup -->

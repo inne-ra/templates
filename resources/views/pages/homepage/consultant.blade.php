@@ -90,7 +90,7 @@
                      <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                      <li class="active dropdown">
-                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                        <a href="{{ url('/')}}" class="dropdown-toggle" data-toggle="dropdown">Home</a>
                         <ul class="dropdown-menu">
                            <li><a href="index-default">Default</a></li>
                            <li><a href="corporate">Corporate</a></li>
@@ -329,7 +329,7 @@
                         <h6 class="text-uppercase">OFFICE 01</h6>
                         <ul class="list-unstyled address">
                            <li><i class="lnr lnr-map-marker"></i><span>Jakarta, Indonesia</span></li>
-                           <li><i class="lnr lnr-envelope"></i><span>support@yourname.com</span></li>
+                           <li><i class="lnr lnr-envelope"></i><span>support@remotehub.id</span></li>
                            <li><i class="icon-phone"></i><span>(+91) 123-456-7890</span></li>
                         </ul>
                      </div>
@@ -515,7 +515,7 @@
                <!-- End Projects -->
                <!-- Services --> 
                <section class="p-0 pos-r grey-bg">
-                  <div class="fullbg bg-pos-right" data-bg-img="images/consultant/bg1.jpg')}}"></div>
+                  <div class="fullbg bg-pos-right" data-bg-img="{{ asset('templates/kkr021/images/consultant/bg1.jpg')}}"></div>
                   <div class="container">
                      <div class="row ">
                         <div class="col-sm-8 col-md-6">
@@ -687,7 +687,7 @@
                <!-- End Step --> 
                <!-- Customer --> 
                <section class="pos-r p-0">
-                  <div class="fullbg bg-pos-right" data-bg-img="images/consultant/bg2.jpg')}}" ></div>
+                  <div class="fullbg bg-pos-right" data-bg-img="{{ asset('templates/kkr021/images/consultant/bg2.jpg')}}" ></div>
                   <div class="container">
                      <div class="row">
                         <div class="col-sm-8 col-md-6 py-7 pr-5 xs-py-4 sm-py-5 sm-pr-4 xs-pr-0 xs-big-mt">
@@ -737,7 +737,7 @@
                <!-- End Customer -->
                <!-- Clients --> 
                <section class="pos-r p-0">
-                  <div class="fullbg bg-left-pos" data-bg-img="images/consultant/bg3.jpg')}}" ></div>
+                  <div class="fullbg bg-left-pos" data-bg-img="{{ asset('templates/kkr021/images/consultant/bg3.jpg')}}" ></div>
                   <div class="container">
                      <div class="row">
                         <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
@@ -785,7 +785,7 @@
                               <h6 class="text-uppercase">About RemoteHub.id</h6>
                               <ul class="list-unstyled address">
                                  <li><i class="lnr lnr-map-marker"></i><span>Jakarta, Indonesia</span></li>
-                                 <li><i class="lnr lnr-envelope"></i><a href="mailto:support@yourname.com">support@yourname.com</a></li>
+                                 <li><i class="lnr lnr-envelope"></i><a href="mailto:support@remotehub.id">support@remotehub.id</a></li>
                                  <li><i class="lnr lnr-phone-handset"></i><span>(+91) 123-456-7890</span></li>
                               </ul>
                            </div>
@@ -824,7 +824,7 @@
                   <div class="footer-bottom">
                      <div class="container">
                         <div class="row">
-                           <div class="col-sm-6">© 2017 Pecto All rights reserved</div>
+                           <div class="col-sm-6">© 2018 <a href="http://www.soerojo.com" target="_blank">Soerojo S.H. & Rekan</a> - All rights reserved</div>
                            <div class="col-sm-6 text-right">
                               <ul class="list-unstyled list-inline footer-social">
                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>

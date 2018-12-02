@@ -78,7 +78,7 @@
                   </div>
                </nav>
                <div class="clearfix"></div>
-               <section id="home" class="full-height bg header-slide single-image" data-bg-img="images/personal/main-img.jpg">
+               <section id="home" class="full-height bg header-slide single-image" data-bg-img="{{ asset('templates/kkr021/images/personal/main-img.jpg')}}">
                   <div class="container">
                      <div class="row">
                         <div class="col-md-6 text-left">
@@ -91,7 +91,7 @@
                   </div>
                </section>
                <section id="about" class="p-0 pos-r">
-                  <div class="fullbg parallax bg-left-pos" data-bg-img="images/personal/bg1.jpg')}}" ></div>
+                  <div class="fullbg parallax bg-left-pos" data-bg-img="{{ asset('templates/kkr021/images/personal/bg1.jpg')}}" ></div>
                   <div class="container">
                      <div class="row ">
                         <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
@@ -166,7 +166,7 @@
                   </div>
                </section>
                <section id="portfolio" class="p-0 pos-r">
-                  <div class="fullbg bg-pos-right parallax" data-bg-img="images/personal/bg2.jpg')}}" ></div>
+                  <div class="fullbg bg-pos-right parallax" data-bg-img="{{ asset('templates/kkr021/images/personal/bg2.jpg')}}" ></div>
                   <div class="container">
                      <div class="row">
                         <div class="col-sm-8 col-md-6">
@@ -290,7 +290,7 @@
                   </div>
                </section>
                <section id="skill" class="p-0 pos-r dark-bg theme-bg">
-                  <div class="fullbg bg-left-pos parallax" data-bg-img="images/personal/bg3.jpg')}}" ></div>
+                  <div class="fullbg bg-left-pos parallax" data-bg-img="{{ asset('templates/kkr021/images/personal/bg3.jpg')}}" ></div>
                   <div class="container">
                      <div class="row ">
                         <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
@@ -389,7 +389,7 @@
                   </div>
                </section>
                <section id="history" class="p-0 pos-r dark-bg">
-                  <div class="fullbg bg-pos-right parallax" data-bg-img="images/personal/bg5.jpg')}}" ></div>
+                  <div class="fullbg bg-pos-right parallax" data-bg-img="{{ asset('templates/kkr021/images/personal/bg5.jpg')}}" ></div>
                   <div class="container">
                      <div class="row ">
                         <div class="col-sm-8 col-md-6">
@@ -431,7 +431,7 @@
                   </div>
                </section>
                <section id="contact" class="p-0 pos-r xs-pb-5 ">
-                  <div class="fullbg bg-left-pos parallax" data-bg-img="images/personal/bg4.jpg')}}" ></div>
+                  <div class="fullbg bg-left-pos parallax" data-bg-img="{{ asset('templates/kkr021/images/personal/bg4.jpg')}}" ></div>
                   <div class="container">
                      <div class="row ">
                         <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
@@ -514,7 +514,7 @@
                   <div class="footer-bottom">
                      <div class="container">
                         <div class="row">
-                           <div class="col-sm-6">© 2017 Uncode All rights reserved</div>
+                           <div class="col-sm-6">© 2018 <a href="http://www.soerojo.com" target="_blank">Soerojo S.H. & Rekan</a> - All rights reserved</div>
                            <div class="col-sm-6 text-right">
                               <div class="link-horizon pull-right">
                                  <ul class="link">

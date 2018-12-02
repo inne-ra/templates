@@ -78,7 +78,7 @@
                      <!-- /.navbar-collapse -->
                   </div>
                </nav>
-               <section id="home" class="full-height app-banner bg" data-bg-img="images/mobile/banner.png">
+               <section id="home" class="full-height app-banner bg" data-bg-img="{{ asset('templates/kkr021/images/mobile/banner.png">
                   <div class="container">
                      <div class="row">
                         <div class="col-md-8 text-left">
@@ -168,7 +168,7 @@
                   <div class="fadeInUp animated"> <img src="{{ asset('templates/kkr021/images/mobile/home_wallet_pic1.png')}}" class="img-responsive" alt="" /> </div>
                </section>
                <section id="work" class="p-0 pos-r">
-                  <div class="fullbg bg-left-pos parallax" data-bg-img="images/mobile/h9-img-7jpg.jpg')}}" ></div>
+                  <div class="fullbg bg-left-pos parallax" data-bg-img="{{ asset('templates/kkr021/images/mobile/h9-img-7jpg.jpg')}}" ></div>
                   <div class="container">
                      <div class="row fadeInUp animated">
                         <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
@@ -211,7 +211,7 @@
                   </div>
                </section>
                <section id="flexibility" class="p-0 pos-r">
-                  <div class="fullbg bg-pos-right" data-bg-img="images/mobile/h9-img-3.jpg')}}" ></div>
+                  <div class="fullbg bg-pos-right" data-bg-img="{{ asset('templates/kkr021/images/mobile/h9-img-3.jpg')}}" ></div>
                   <div class="container">
                      <div class="row fadeInUp animated">
                         <div class="col-sm-8 col-md-6">
@@ -305,7 +305,7 @@
                   <div class="footer-bottom">
                      <div class="container">
                         <div class="row">
-                           <div class="col-sm-6">© 2017 Uncode All rights reserved</div>
+                           <div class="col-sm-6">© 2018 <a href="http://www.soerojo.com" target="_blank">Soerojo S.H. & Rekan</a> - All rights reserved</div>
                            <div class="col-sm-6 text-right">
                               <div class="link-horizon pull-right">
                                  <ul class="link">

@@ -76,7 +76,7 @@
                      </div>
                   </nav>
          <!-- Banner -->
-         <section class="inner-intro dark-bg bg bg-fixed overlay jarallax" data-jarallax='{"speed": 0.2}' data-overlay-color="dark" data-overlay="2" data-bg-img="images/banner.jpg')}}" >
+         <section class="inner-intro dark-bg bg bg-fixed overlay jarallax" data-jarallax='{"speed": 0.2}' data-overlay-color="dark" data-overlay="2" data-bg-img="{{ asset('templates/kkr021/images/banner.jpg')}}" >
             <div class="container">
                <div class="row intro-title">
                   <div class="col-sm-12 text-left">
@@ -154,7 +154,7 @@
                         <h6 class="text-uppercase">About RemoteHub.id</h6>
                         <ul class="list-unstyled address">
                            <li><i class="lnr lnr-map-marker"></i><span>Jakarta, Indonesia</span></li>
-                           <li><i class="lnr lnr-envelope"></i><a href="mailto:support@yourname.com">support@yourname.com</a></li>
+                           <li><i class="lnr lnr-envelope"></i><a href="mailto:support@remotehub.id">support@remotehub.id</a></li>
                            <li><i class="lnr lnr-phone-handset"></i><span>(+91) 123-456-7890</span></li>
                         </ul>
                      </div>
@@ -193,7 +193,7 @@
             <div class="footer-bottom">
                <div class="container">
                   <div class="row">
-                     <div class="col-sm-6">© 2017 Pecto All rights reserved</div>
+                     <div class="col-sm-6">© 2018 <a href="http://www.soerojo.com" target="_blank">Soerojo S.H. & Rekan</a> - All rights reserved</div>
                      <div class="col-sm-6 text-right">
                         <ul class="list-unstyled list-inline footer-social">
                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>

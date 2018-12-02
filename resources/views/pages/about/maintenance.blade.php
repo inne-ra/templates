@@ -50,7 +50,7 @@
         </div>
 	  
 	  <!-- maintenance -->
-         <section class="maintenance-page darks-bg p-0 full-height" data-bg-img="images/maintenance-bg.jpg">
+         <section class="maintenance-page darks-bg p-0 full-height" data-bg-img="{{ asset('templates/kkr021/images/maintenance-bg.jpg')}}">
             <span class="pulses"></span><span class="pulses2"></span>
             <div class="container">
                <div class="row">

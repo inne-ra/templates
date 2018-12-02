@@ -86,7 +86,7 @@
                      <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                      <li class="active dropdown">
-                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                        <a href="{{ url('/')}}" class="dropdown-toggle" data-toggle="dropdown">Home</a>
                         <ul class="dropdown-menu">
                            <li><a href="index-default">Default</a></li>
                            <li><a href="corporate">Corporate</a></li>
@@ -325,7 +325,7 @@
                         <h6 class="text-uppercase">OFFICE 01</h6>
                         <ul class="list-unstyled address">
                            <li><i class="lnr lnr-map-marker"></i><span>Jakarta, Indonesia</span></li>
-                           <li><i class="lnr lnr-envelope"></i><span>support@yourname.com</span></li>
+                           <li><i class="lnr lnr-envelope"></i><span>support@remotehub.id</span></li>
                            <li><i class="icon-phone"></i><span>(+91) 123-456-7890</span></li>
                         </ul>
                      </div>
@@ -345,7 +345,7 @@
                </nav>
                <!-- End Navigation -->
                <!-- Banner -->
-               <section class="full-height bg white-text header-slide construction-slider single-image overlay" data-overlay-color="dark" data-overlay="5"  data-bg-img="images/construction/slide1.jpg">
+               <section class="full-height bg white-text header-slide construction-slider single-image overlay" data-overlay-color="dark" data-overlay="5"  data-bg-img="{{ asset('templates/kkr021/images/construction/slide1.jpg')}}">
                   <div class="container">
                      <div class="row">
                         <div class="col-md-10 col-md-offset-1 text-center">
@@ -449,7 +449,7 @@
                </section>
                <!-- End Feature -->
                <!-- About -->
-               <section class="pos-r"  data-bg-img="images/construction/bg2.jpg">
+               <section class="pos-r"  data-bg-img="{{ asset('templates/kkr021/images/construction/bg2.jpg')}}">
                   <img src="{{ asset('templates/kkr021/images/construction/image2.png')}}" class="right-img visible-md visible-lg" alt="" />
                   <div class="container">
                      <div class="row">
@@ -486,7 +486,7 @@
                </section>
                <!-- End About -->
                <!-- Our Team -->
-               <section class="dark-bg overlay bg fixed" data-overlay-color="dark" data-overlay="9" data-bg-img="images/construction/slide1.jpg')}}" >
+               <section class="dark-bg overlay bg fixed" data-overlay-color="dark" data-overlay="9" data-bg-img="{{ asset('templates/kkr021/images/construction/slide1.jpg')}}" >
                   <div class="container">
                      <div class="row">
                         <div class="col-sm-12 mb-3">
@@ -559,7 +559,7 @@
                               <a href="#" class="btn btn-default btn-sm btn-radius btn-outline fill-dark">learn more</a> 
                            </div>
                         </div>
-                        <div class="col-lg-3 bg visible-lg" data-bg-img="images/construction/images2.jpg"> </div>
+                        <div class="col-lg-3 bg visible-lg" data-bg-img="{{ asset('templates/kkr021/images/construction/images2.jpg')}}"> </div>
                         <div class="col-sm-6 col-lg-4  theme-bg">
                            <div class="pxy-5 feature-section xs-px-3 xs-pb-2">
                               <div class="feature  icon-position-left">
@@ -795,7 +795,7 @@
                               <h6 class="text-uppercase">About RemoteHub.id</h6>
                               <ul class="list-unstyled address">
                                  <li><i class="lnr lnr-map-marker"></i><span>Jakarta, Indonesia</span></li>
-                                 <li><i class="lnr lnr-envelope"></i><a href="mailto:support@yourname.com">support@yourname.com</a></li>
+                                 <li><i class="lnr lnr-envelope"></i><a href="mailto:support@remotehub.id">support@remotehub.id</a></li>
                                  <li><i class="lnr lnr-phone-handset"></i><span>(+91) 123-456-7890</span></li>
                               </ul>
                            </div>
@@ -834,7 +834,7 @@
                   <div class="footer-bottom">
                      <div class="container">
                         <div class="row">
-                           <div class="col-sm-6">© 2017 Pecto All rights reserved</div>
+                           <div class="col-sm-6">© 2018 <a href="http://www.soerojo.com" target="_blank">Soerojo S.H. & Rekan</a> - All rights reserved</div>
                            <div class="col-sm-6 text-right">
                               <ul class="list-unstyled list-inline footer-social">
                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
