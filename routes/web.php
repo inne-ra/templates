@@ -217,3 +217,7 @@ Route::get('portfolio-standard-2-col', function () {return view('pages.portfolio
 Route::get('portfolio-standard-3-col', function () {return view('pages.portfolio.portfolio-standard-3-col');});
 
 Route::get('portfolio-standard-4-col', function () {return view('pages.portfolio.portfolio-standard-4-col');});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
