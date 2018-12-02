@@ -25,42 +25,42 @@
                <!-- Google fonts -->
                <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
                <!-- Bootstrap -->
-               <link rel="stylesheet" href="templates/kkr021/css/bootstrap.min.css" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/bootstrap.min.css')}}" type="text/css"/>
                <!-- font-awesome -->
-               <link rel="stylesheet" href="templates/kkr021/css/font-awesome.min.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/font-awesome.min.css')}}" type="text/css" />
                <!-- line icons -->
-               <link rel="stylesheet" href="templates/kkr021/css/linearicons.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/linearicons.css')}}" type="text/css" />
                <!-- simple-line-icons-->
-               <link rel="stylesheet" href="templates/kkr021/css/simple-line-icons.css" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/simple-line-icons.css')}}" type="text/css"/>
                <!-- owl-carousel -->
-               <link rel="stylesheet" href="templates/kkr021/css/owl.carousel.css" type="text/css" />
-               <link rel="stylesheet" href="templates/kkr021/css/owl.theme.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/owl.carousel.css')}}" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/owl.theme.css')}}" type="text/css" />
                <!-- Magnific Popup -->
-               <link rel="stylesheet" href="templates/kkr021/css/magnific-popup/magnific-popup.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/magnific-popup/magnific-popup.css')}}" type="text/css" />
                <!-- shortcodes -->
-               <link rel="stylesheet" href="templates/kkr021/css/shortcodes.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/shortcodes.css')}}" type="text/css" />
                <!-- base -->
-               <link rel="stylesheet" href="templates/kkr021/css/base.css" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/base.css')}}" type="text/css"/>
                <!-- Bootsnav -->
-               <link rel="stylesheet" href="templates/kkr021/css/bootsnav.css" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/bootsnav.css')}}" type="text/css"/>
                <!-- Responsive -->
-               <link rel="stylesheet" href="templates/kkr021/css/responsive.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/responsive.css')}}" type="text/css" />
                <!-- Skin -->
-               <link href="templates/kkr021/css/skin-personal.css" rel="stylesheet" type="text/css"/>
+               <link href="{{ asset('templates/kkr021/css/skin-personal.css')}}" rel="stylesheet" type="text/css"/>
                <!-- Favicon -->
                <link rel="shortcut icon" href="favicon.ico"/>
             </head>
             <body>
                <!-- Preloader -->
                <div id="preloader">
-                  <div class="clear-loading loading-effect"><img src="templates/kkr021/images/loading.gif" width="100" alt=""></div>
+                  <div class="clear-loading loading-effect"><img src="{{ asset('templates/kkr021/images/loading.gif')}}" width="100" alt=""></div>
                </div>
                <nav class="navbar navbar-default navbar-fixed no-background dark navbar-scrollspy navbar-full bootsnav"  data-minus-value-desktop="77" data-minus-value-mobile="0" data-speed="1000">
                   <div class="container pos-r">
                      <!-- Start Header Navigation -->
                      <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"><i class="fa fa-bars"></i></button>
-                        <a class="navbar-brand" href="#brand"><img src="templates/kkr021/images/brand/logo-black.png" class="logo" alt=""></a> 
+                        <a class="navbar-brand" href="#brand"><img src="{{ asset('templates/kkr021/images/brand/logo-black.png')}}" class="logo" alt=""></a> 
                      </div>
                      <!-- End Header Navigation -->
                      <!-- Collect the nav links, forms, and other content for toggling -->
@@ -91,7 +91,7 @@
                   </div>
                </section>
                <section id="about" class="p-0 pos-r">
-                  <div class="fullbg parallax bg-left-pos" data-bg-img="images/personal/bg1.jpg" ></div>
+                  <div class="fullbg parallax bg-left-pos" data-bg-img="images/personal/bg1.jpg')}}" ></div>
                   <div class="container">
                      <div class="row ">
                         <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
@@ -166,7 +166,7 @@
                   </div>
                </section>
                <section id="portfolio" class="p-0 pos-r">
-                  <div class="fullbg bg-pos-right parallax" data-bg-img="images/personal/bg2.jpg" ></div>
+                  <div class="fullbg bg-pos-right parallax" data-bg-img="images/personal/bg2.jpg')}}" ></div>
                   <div class="container">
                      <div class="row">
                         <div class="col-sm-8 col-md-6">
@@ -189,96 +189,96 @@
                                     <li class="grid-item design">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/design/img1.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/design/img1.jpg" alt="Design" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/design/img1.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/design/img1.jpg')}}" alt="Design" /> 
                                           </div>
                                        </div>
                                     </li>
                                     <li class="grid-item photo">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/photo/img1.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/photo/img1.jpg" alt="Photo" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/photo/img1.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/photo/img1.jpg')}}" alt="Photo" /> 
                                           </div>
                                        </div>
                                     </li>
                                     <li class="grid-item branding">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/branding/img1.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/branding/img1.jpg" alt="Branding" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/branding/img1.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/branding/img1.jpg')}}" alt="Branding" /> 
                                           </div>
                                        </div>
                                     </li>
                                     <li class="grid-item app">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/app/img1.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/app/img1.jpg" alt="App" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/app/img1.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/app/img1.jpg')}}" alt="App" /> 
                                           </div>
                                        </div>
                                     </li>
                                     <li class="grid-item design">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/design/img2.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/design/img2.jpg" alt="Design" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/design/img2.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/design/img2.jpg')}}" alt="Design" /> 
                                           </div>
                                        </div>
                                     </li>
                                     <li class="grid-item photo">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/photo/img2.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/photo/img2.jpg" alt="Photo" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/photo/img2.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/photo/img2.jpg')}}" alt="Photo" /> 
                                           </div>
                                        </div>
                                     </li>
                                     <li class="grid-item branding">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/branding/img3.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/branding/img3.jpg" alt="Photo" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/branding/img3.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/branding/img3.jpg')}}" alt="Photo" /> 
                                           </div>
                                        </div>
                                     </li>
                                     <li class="grid-item app">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/app/img3.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/app/img3.jpg" alt="App" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/app/img3.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/app/img3.jpg')}}" alt="App" /> 
                                           </div>
                                        </div>
                                     </li>
                                     <li class="grid-item design">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/design/img3.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/design/img3.jpg" alt="design" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/design/img3.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/design/img3.jpg')}}" alt="design" /> 
                                           </div>
                                        </div>
                                     </li>
                                     <li class="grid-item photo">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/photo/img3.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/photo/img3.jpg" alt="photo" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/photo/img3.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/photo/img3.jpg')}}" alt="photo" /> 
                                           </div>
                                        </div>
                                     </li>
                                     <li class="grid-item app">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/app/img2.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/app/img2.jpg" alt="app" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/app/img2.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/app/img2.jpg')}}" alt="app" /> 
                                           </div>
                                        </div>
                                     </li>
                                     <li class="grid-item branding">
                                        <div class="isotope-img portfolio-item">
                                           <div class="item-img">
-                                             <div class="overlay"> <a class="link-icon popup-img" href="templates/kkr021/images/portfolio/branding/img4.jpg"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
-                                             <img src="templates/kkr021/images/portfolio/branding/img4.jpg" alt="branding" /> 
+                                             <div class="overlay"> <a class="link-icon popup-img" href="{{ asset('templates/kkr021/images/portfolio/branding/img4.jpg')}}"><i class="lnr lnr-picture"></i></a> <a class="link-icon" href="#"><i class="lnr lnr-link"></i></a> </div>
+                                             <img src="{{ asset('templates/kkr021/images/portfolio/branding/img4.jpg')}}" alt="branding" /> 
                                           </div>
                                        </div>
                                     </li>
@@ -290,7 +290,7 @@
                   </div>
                </section>
                <section id="skill" class="p-0 pos-r dark-bg theme-bg">
-                  <div class="fullbg bg-left-pos parallax" data-bg-img="images/personal/bg3.jpg" ></div>
+                  <div class="fullbg bg-left-pos parallax" data-bg-img="images/personal/bg3.jpg')}}" ></div>
                   <div class="container">
                      <div class="row ">
                         <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
@@ -389,7 +389,7 @@
                   </div>
                </section>
                <section id="history" class="p-0 pos-r dark-bg">
-                  <div class="fullbg bg-pos-right parallax" data-bg-img="images/personal/bg5.jpg" ></div>
+                  <div class="fullbg bg-pos-right parallax" data-bg-img="images/personal/bg5.jpg')}}" ></div>
                   <div class="container">
                      <div class="row ">
                         <div class="col-sm-8 col-md-6">
@@ -431,7 +431,7 @@
                   </div>
                </section>
                <section id="contact" class="p-0 pos-r xs-pb-5 ">
-                  <div class="fullbg bg-left-pos parallax" data-bg-img="images/personal/bg4.jpg" ></div>
+                  <div class="fullbg bg-left-pos parallax" data-bg-img="images/personal/bg4.jpg')}}" ></div>
                   <div class="container">
                      <div class="row ">
                         <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
@@ -496,7 +496,7 @@
                      <div class="container">
                         <div class="row">
                            <div class="col-md-6 col-md-offset-3 text-center">
-                              <img class="footer-logo" src="templates/kkr021/images/brand/logo-white.png" alt="">
+                              <img class="footer-logo" src="{{ asset('templates/kkr021/images/brand/logo-white.png')}}" alt="">
                               <div class="link-horizon mt-2">
                                  <ul class="link">
                                     <li><a href="#">Home</a></li>
@@ -530,27 +530,27 @@
                <!-- Back to Top --> 
                <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-chevron-up"></i></a></div>
                <!-- jquery  -->
-               <script type="text/javascript" src="templates/kkr021/js/jquery.min.js"></script>
+               <script type="text/javascript" src="{{ asset('templates/kkr021/js/jquery.min.js')}}"></script>
                <!-- bootstrap -->
-               <script type="text/javascript" src="templates/kkr021/js/bootstrap.min.js"></script>
+               <script type="text/javascript" src="{{ asset('templates/kkr021/js/bootstrap.min.js')}}"></script>
                <!-- appear -->
-               <script type="text/javascript" src="templates/kkr021/js/jquery.appear.js"></script>
+               <script type="text/javascript" src="{{ asset('templates/kkr021/js/jquery.appear.js')}}"></script>
                <!-- owl-carousel -->
-               <script type="text/javascript" src="templates/kkr021/js/owl-carousel/owl.carousel.min.js"></script>
+               <script type="text/javascript" src="{{ asset('templates/kkr021/js/owl-carousel/owl.carousel.min.js')}}"></script>
                <!-- counter -->
-               <script type="text/javascript" src="templates/kkr021/js/counter/jquery.countTo.js"></script>
+               <script type="text/javascript" src="{{ asset('templates/kkr021/js/counter/jquery.countTo.js')}}"></script>
                <!-- counter -->
-               <script type="text/javascript" src="templates/kkr021/js/jquery.piechart.js"></script>
+               <script type="text/javascript" src="{{ asset('templates/kkr021/js/jquery.piechart.js')}}"></script>
                <!-- isotope -->
-               <script src="templates/kkr021/js/isotope/isotope.pkgd.min.js"></script>
-               <script src="templates/kkr021/js/isotope/imagesLoaded.js"></script>
+               <script src="{{ asset('templates/kkr021/js/isotope/isotope.pkgd.min.js')}}"></script>
+               <script src="{{ asset('templates/kkr021/js/isotope/imagesLoaded.js')}}"></script>
                <!-- Bootsnavs -->
-               <script src="templates/kkr021/js/bootsnav.js"></script>
+               <script src="{{ asset('templates/kkr021/js/bootsnav.js')}}"></script>
                <!-- Bootsnavs -->
-               <script src="templates/kkr021/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+               <script src="{{ asset('templates/kkr021/js/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
                <!-- Typer -->
-               <script src="templates/kkr021/js/typer.js"></script>
+               <script src="{{ asset('templates/kkr021/js/typer.js')}}"></script>
                <!-- custom -->
-               <script type="text/javascript" src="templates/kkr021/js/custom.js"></script>
+               <script type="text/javascript" src="{{ asset('templates/kkr021/js/custom.js')}}"></script>
             </body>
          </html>

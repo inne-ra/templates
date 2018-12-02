@@ -25,33 +25,33 @@
                <!-- Google fonts -->
                <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
                <!-- Bootstrap -->
-               <link rel="stylesheet" href="templates/kkr021/css/bootstrap.min.css" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/bootstrap.min.css')}}" type="text/css"/>
                <!-- font-awesome -->
-               <link rel="stylesheet" href="templates/kkr021/css/font-awesome.min.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/font-awesome.min.css')}}" type="text/css" />
                <!-- line icons -->
-               <link rel="stylesheet" href="templates/kkr021/css/linearicons.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/linearicons.css')}}" type="text/css" />
                <!-- simple-line-icons-->
-               <link rel="stylesheet" href="templates/kkr021/css/simple-line-icons.css" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/simple-line-icons.css')}}" type="text/css"/>
                <!-- owl-carousel -->
-               <link rel="stylesheet" href="templates/kkr021/css/owl.carousel.css" type="text/css" />
-               <link rel="stylesheet" href="templates/kkr021/css/owl.theme.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/owl.carousel.css')}}" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/owl.theme.css')}}" type="text/css" />
                <!-- Magnific Popup -->
-               <link rel="stylesheet" href="templates/kkr021/css/magnific-popup/magnific-popup.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/magnific-popup/magnific-popup.css')}}" type="text/css" />
                <!-- shortcodes -->
-               <link rel="stylesheet" href="templates/kkr021/css/shortcodes.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/shortcodes.css')}}" type="text/css" />
                <!-- base -->
-               <link rel="stylesheet" href="templates/kkr021/css/base.css" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/base.css')}}" type="text/css"/>
                <!-- Bootsnav -->
-               <link rel="stylesheet" href="templates/kkr021/css/bootsnav.css" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/bootsnav.css')}}" type="text/css"/>
                <!-- Responsive -->
-               <link rel="stylesheet" href="templates/kkr021/css/responsive.css" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/kkr021/css/responsive.css')}}" type="text/css" />
                <!-- Favicon -->
                <link rel="shortcut icon" href="favicon.ico"/>
             </head>
             <body>
                <!-- Preloader -->
                <div id="preloader">
-                  <div class="clear-loading loading-effect"><img src="templates/kkr021/images/loading.gif" width="100" alt=""></div>
+                  <div class="clear-loading loading-effect"><img src="{{ asset('templates/kkr021/images/loading.gif')}}" width="100" alt=""></div>
                </div>
                <!-- Start Navigation -->
                <nav class="navbar navbar-default navbar-sticky bootsnav">
@@ -77,7 +77,7 @@
                      <!-- Start Header Navigation -->
                      <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i> </button>
-                        <a class="navbar-brand" href="index-default"><img src="templates/kkr021/images/brand/logo-black.png" class="logo logo-scrolled" alt=""> </a> 
+                        <a class="navbar-brand" href="index-default"><img src="{{ asset('templates/kkr021/images/brand/logo-black.png')}}" class="logo logo-scrolled" alt=""> </a> 
                      </div>
                      <!-- End Header Navigation -->
                      <!-- Megamenu -->
@@ -316,7 +316,7 @@
                   <div class="side dark-bg">
                      <a href="#" class="close-side"><i class="fa fa-times"></i></a>
                      <div class="widget">
-                        <p class="text-center my-3"><img src="templates/kkr021/images/brand/logo-white.png" class="logo" alt="" /></p>
+                        <p class="text-center my-3"><img src="{{ asset('templates/kkr021/images/brand/logo-white.png')}}" class="logo" alt="" /></p>
                         <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                      </div>
                      <div class="widget">
@@ -344,7 +344,7 @@
                <!-- End Navigation -->
          <!-- Banner -->
          <section class="p-0 pos-r  dark-bg">
-            <div class="fullbg" data-bg-img="images/main/bg-2.jpg" ></div>
+            <div class="fullbg" data-bg-img="images/main/bg-2.jpg')}}" ></div>
             <div class="container">
                <div class="row">
                   <div class="col-md-6 col-sm-8 col-sm-offset-4 col-md-offset-6">
@@ -365,7 +365,7 @@
                         <blockquote class="pullquote pos-center">
                            <p>Design is the fundamental soul of a man-made creation that ends up expressing itself in successive outer layers of the product or service.</p>
                         </blockquote>
-                        <p class="text-center m-0"><img src="templates/kkr021/images/Signature-white.png" alt="" /></p>
+                        <p class="text-center m-0"><img src="{{ asset('templates/kkr021/images/Signature-white.png')}}" alt="" /></p>
                      </div>
                   </div>
                </div>
@@ -378,7 +378,7 @@
                <div class="row">
                   <div class="col-md-6">
                      <div class="row no-gutter">
-                        <div class="col-md-6 col-xs-6 col-xx-12"><img class="img-responsive" src="templates/kkr021/images/team/member1.jpg" alt="" /></div>
+                        <div class="col-md-6 col-xs-6 col-xx-12"><img class="img-responsive" src="{{ asset('templates/kkr021/images/team/member1.jpg')}}" alt="" /></div>
                         <div class="col-md-6 col-xs-6 col-xx-12">
                            <div class="py-5 pl-5">
                               <h3 class="member-name light-weight mb-1">Nick Brew</h3>
@@ -398,7 +398,7 @@
                   </div>
                   <div class="col-md-6">
                      <div class="row no-gutter">
-                        <div class="col-md-6 col-xs-6 col-xx-12 col-md-push-0 col-sm-push-6"><img class="img-responsive" src="templates/kkr021/images/team/member2.jpg" alt="" /></div>
+                        <div class="col-md-6 col-xs-6 col-xx-12 col-md-push-0 col-sm-push-6"><img class="img-responsive" src="{{ asset('templates/kkr021/images/team/member2.jpg')}}" alt="" /></div>
                         <div class="col-md-6 col-xs-6 col-xx-12 col-md-pull-0 col-sm-pull-6">
                            <div class="py-5 pl-5">
                               <h3 class="member-name light-weight mb-1">Jenny Doe</h3>
@@ -422,7 +422,7 @@
                <div class="row">
                   <div class="col-md-6">
                      <div class="row no-gutter">
-                        <div class="col-md-6 col-xs-6 col-xx-12 col-md-push-6"><img class="img-responsive" src="templates/kkr021/images/team/member3.jpg" alt="" /></div>
+                        <div class="col-md-6 col-xs-6 col-xx-12 col-md-push-6"><img class="img-responsive" src="{{ asset('templates/kkr021/images/team/member3.jpg')}}" alt="" /></div>
                         <div class="col-md-6 col-xs-6 col-xx-12 col-md-pull-6">
                            <div class="py-5 pl-5">
                               <h3 class="member-name light-weight mb-1">Crow Alex</h3>
@@ -442,7 +442,7 @@
                   </div>
                   <div class="col-md-6">
                      <div class="row no-gutter">
-                        <div class="col-md-6 col-xs-6 col-xx-12 col-sm-push-6"><img class="img-responsive" src="templates/kkr021/images/team/member4.jpg" alt="" /></div>
+                        <div class="col-md-6 col-xs-6 col-xx-12 col-sm-push-6"><img class="img-responsive" src="{{ asset('templates/kkr021/images/team/member4.jpg')}}" alt="" /></div>
                         <div class="col-md-6 col-xs-6 col-xx-12 col-sm-pull-6">
                            <div class="py-5 pl-5">
                               <h3 class="member-name light-weight mb-1">Ronnie Rice</h3>
@@ -530,30 +530,30 @@
          <!-- Back to Top --> 
          <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-chevron-up"></i></a></div>
          <!-- jquery  -->
-         <script type="text/javascript" src="templates/kkr021/js/jquery.min.js"></script>
+         <script type="text/javascript" src="{{ asset('templates/kkr021/js/jquery.min.js')}}"></script>
          <!-- Bootstrap -->
-         <script type="text/javascript" src="templates/kkr021/js/bootstrap.min.js"></script>
+         <script type="text/javascript" src="{{ asset('templates/kkr021/js/bootstrap.min.js')}}"></script>
          <!-- Appear -->
-         <script type="text/javascript" src="templates/kkr021/js/jquery.appear.js"></script>
+         <script type="text/javascript" src="{{ asset('templates/kkr021/js/jquery.appear.js')}}"></script>
          <!-- owl-carousel -->
-         <script type="text/javascript" src="templates/kkr021/js/owl-carousel/owl.carousel.min.js"></script>
+         <script type="text/javascript" src="{{ asset('templates/kkr021/js/owl-carousel/owl.carousel.min.js')}}"></script>
          <!-- counter -->
-         <script type="text/javascript" src="templates/kkr021/js/counter/jquery.countTo.js"></script>
+         <script type="text/javascript" src="{{ asset('templates/kkr021/js/counter/jquery.countTo.js')}}"></script>
          <!-- countdown -->
-         <script type="text/javascript" src="templates/kkr021/js/countdown/jquery.downCount.js"></script>
+         <script type="text/javascript" src="{{ asset('templates/kkr021/js/countdown/jquery.downCount.js')}}"></script>
          <!-- Piechart -->
-         <script type="text/javascript" src="templates/kkr021/js/jquery.piechart.js"></script>
+         <script type="text/javascript" src="{{ asset('templates/kkr021/js/jquery.piechart.js')}}"></script>
          <!-- magnific popup -->
-         <script type="text/javascript" src="templates/kkr021/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+         <script type="text/javascript" src="{{ asset('templates/kkr021/js/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
          <!-- isotope -->
-         <script src="templates/kkr021/js/isotope/isotope.pkgd.min.js"></script>
-         <script src="templates/kkr021/js/isotope/imagesLoaded.js"></script>
+         <script src="{{ asset('templates/kkr021/js/isotope/isotope.pkgd.min.js')}}"></script>
+         <script src="{{ asset('templates/kkr021/js/isotope/imagesLoaded.js')}}"></script>
          <!-- jarallax -->
-         <script src="templates/kkr021/js/jarallax/jarallax.js"></script>
-         <script src="templates/kkr021/js/jarallax/jarallax-video.js"></script>
+         <script src="{{ asset('templates/kkr021/js/jarallax/jarallax.js')}}"></script>
+         <script src="{{ asset('templates/kkr021/js/jarallax/jarallax-video.js')}}"></script>
          <!-- Bootsnavs -->
-         <script src="templates/kkr021/js/bootsnav.js"></script>
+         <script src="{{ asset('templates/kkr021/js/bootsnav.js')}}"></script>
          <!-- custom -->
-         <script type="text/javascript" src="templates/kkr021/js/custom.js"></script>
+         <script type="text/javascript" src="{{ asset('templates/kkr021/js/custom.js')}}"></script>
       </body>
    </html>
