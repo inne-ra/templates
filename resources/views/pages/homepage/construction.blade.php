@@ -2,18 +2,18 @@
 <!-- 
    Template: Soerojo S.H. dan Rekan HTML Template Built With Twitter Bootstrap 3.3.7
    Version: 1.0.0
-   -->
+-->
 <!--[if lt IE 7]>      
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="">
+   <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="">
    <![endif]-->
    <!--[if IE 7]>         
-   <html class="no-js lt-ie9 lt-ie8" lang="">
+      <html class="no-js lt-ie9 lt-ie8" lang="">
       <![endif]-->
       <!--[if IE 8]>         
-      <html class="no-js lt-ie9" lang="">
+         <html class="no-js lt-ie9" lang="">
          <![endif]-->
          <!--[if gt IE 8]><!--> 
-         <html class="no-js" lang="en">
+            <html class="no-js" lang="en">
             <!--<![endif]-->
             <head>
                <meta charset="utf-8">
@@ -85,232 +85,232 @@
                      <!-- Megamenu -->
                      <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                     <li class="active dropdown">
-                        <a href="{{ url('/')}}" class="dropdown-toggle" data-toggle="dropdown">Home</a>
-                        <ul class="dropdown-menu">
-                           <li><a href="index-default">Default</a></li>
-                           <li><a href="corporate">Corporate</a></li>
-                           <li><a href="consultant">Consultant</a></li>
-                           <li><a href="construction">Construction</a></li>
-                           <li><a href="medical">Medical</a></li>
-                           <li><a href="gym">Fitness</a></li>
-                           <li><a href="mobile-app">App</a></li>
-                           <li><a href="personal">Personal</a></li>
-                        </ul>
-                     </li>
-                     <li class="dropdown">
-                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Features</a>                            
-                        <ul class="dropdown-menu">
-                           <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Header</a>                                    
+                           <li class="active dropdown">
+                              <a href="{{ url('/')}}" class="dropdown-toggle" data-toggle="dropdown">Home</a>
                               <ul class="dropdown-menu">
-                                 <li><a href="header-default">Header Default</a></li>
-                                 <li><a href="header-fixed">Header Fixed</a></li>
-                                 <li><a href="header-transparent">Header Transparent</a></li>
-                                 <li><a href="header-fullwidth">Header Full Width</a></li>
-                                 <li><a href="header-topbar">Header Topbar</a></li>
-                                 <li><a href="header-logo-center">Header Logo Center</a></li>
-                                 <li><a href="header-logo-top">Header Logo Top</a></li>
-                                 <li><a href="header-side-left">Side Menu Left</a></li>
-                                 <li><a href="header-fullscreen">Header Fullscreen</a></li>
+                                 <li><a href="index-default">Default</a></li>
+                                 <li><a href="corporate">Corporate</a></li>
+                                 <li><a href="consultant">Consultant</a></li>
+                                 <li><a href="construction">Construction</a></li>
+                                 <li><a href="medical">Medical</a></li>
+                                 <li><a href="gym">Fitness</a></li>
+                                 <li><a href="mobile-app">App</a></li>
+                                 <li><a href="personal">Personal</a></li>
                               </ul>
                            </li>
                            <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Banner</a>                                    
-                              <ul class="dropdown-menu">
-                                 <li><a href="banner-owl-slider">Owl Slider</a></li>
-                                 <li><a href="banner-youtube">Youtube Video</a></li>
-                                 <li><a href="banner-vimeo">Vimeo Video</a></li>
-                                 <li><a href="banner-html-video">HTML5 Video</a></li>
-                                 <li><a href="banner-text-rotator">Text Rotator</a></li>
-                              </ul>
-                           </li>
-                           <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Footer</a>                                    
-                              <ul class="dropdown-menu">
-                                 <li><a href="footer1">Footer 1</a></li>
-                                 <li><a href="footer2">Footer 2</a></li>
-                                 <li><a href="footer3">Footer 3</a></li>
-                                 <li><a href="footer4">Footer 4</a></li>
-                                 <li><a href="footer5">Footer 5</a></li>
-                              </ul>
-                           </li>
-                           <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Page Tittle</a>                                    
+                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Features</a>                            
                               <ul class="dropdown-menu">
                                  <li class="dropdown">
-                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Size</a>                                            
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Header</a>                                    
                                     <ul class="dropdown-menu">
-                                       <li><a href="page-title-sm">Page Title Small</a></li>
-                                       <li><a href="page-title-md">Page Title Medium</a></li>
-                                       <li><a href="page-title-lg">Page Title Large</a></li>
-                                       <li><a href="page-title-xlg">Page Title Extra Large</a></li>
+                                       <li><a href="header-default">Header Default</a></li>
+                                       <li><a href="header-fixed">Header Fixed</a></li>
+                                       <li><a href="header-transparent">Header Transparent</a></li>
+                                       <li><a href="header-fullwidth">Header Full Width</a></li>
+                                       <li><a href="header-topbar">Header Topbar</a></li>
+                                       <li><a href="header-logo-center">Header Logo Center</a></li>
+                                       <li><a href="header-logo-top">Header Logo Top</a></li>
+                                       <li><a href="header-side-left">Side Menu Left</a></li>
+                                       <li><a href="header-fullscreen">Header Fullscreen</a></li>
                                     </ul>
                                  </li>
                                  <li class="dropdown">
-                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Alignment</a>                                            
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Banner</a>                                    
                                     <ul class="dropdown-menu">
-                                       <li><a href="page-title-left">Align Left</a></li>
-                                       <li><a href="page-title-right">Align Right</a></li>
-                                       <li><a href="page-title-center">Align Center</a></li>
+                                       <li><a href="banner-owl-slider">Owl Slider</a></li>
+                                       <li><a href="banner-youtube">Youtube Video</a></li>
+                                       <li><a href="banner-vimeo">Vimeo Video</a></li>
+                                       <li><a href="banner-html-video">HTML5 Video</a></li>
+                                       <li><a href="banner-text-rotator">Text Rotator</a></li>
                                     </ul>
                                  </li>
-                                 <li><a href="page-title-bg">White Background</a></li>
-                                 <li><a href="page-title-grey">Grey Background</a></li>
-                                 <li><a href="page-title-dark">Dark Background</a></li>
-                                 <li><a href="page-title-theme">Theme Background</a></li>
-                                 <li><a href="page-title-parallax">Parallax</a></li>
                                  <li class="dropdown">
-                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Video</a>                                            
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Footer</a>                                    
                                     <ul class="dropdown-menu">
-                                       <li><a href="page-title-youtube">Youtube</a></li>
-                                       <li><a href="page-title-vimeo">Vimeo</a></li>
-                                       <li><a href="page-title-html5">HTML5</a></li>
+                                       <li><a href="footer1">Footer 1</a></li>
+                                       <li><a href="footer2">Footer 2</a></li>
+                                       <li><a href="footer3">Footer 3</a></li>
+                                       <li><a href="footer4">Footer 4</a></li>
+                                       <li><a href="footer5">Footer 5</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Page Tittle</a>                                    
+                                    <ul class="dropdown-menu">
+                                       <li class="dropdown">
+                                          <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Size</a>                                            
+                                          <ul class="dropdown-menu">
+                                             <li><a href="page-title-sm">Page Title Small</a></li>
+                                             <li><a href="page-title-md">Page Title Medium</a></li>
+                                             <li><a href="page-title-lg">Page Title Large</a></li>
+                                             <li><a href="page-title-xlg">Page Title Extra Large</a></li>
+                                          </ul>
+                                       </li>
+                                       <li class="dropdown">
+                                          <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Alignment</a>                                            
+                                          <ul class="dropdown-menu">
+                                             <li><a href="page-title-left">Align Left</a></li>
+                                             <li><a href="page-title-right">Align Right</a></li>
+                                             <li><a href="page-title-center">Align Center</a></li>
+                                          </ul>
+                                       </li>
+                                       <li><a href="page-title-bg">White Background</a></li>
+                                       <li><a href="page-title-grey">Grey Background</a></li>
+                                       <li><a href="page-title-dark">Dark Background</a></li>
+                                       <li><a href="page-title-theme">Theme Background</a></li>
+                                       <li><a href="page-title-parallax">Parallax</a></li>
+                                       <li class="dropdown">
+                                          <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Video</a>                                            
+                                          <ul class="dropdown-menu">
+                                             <li><a href="page-title-youtube">Youtube</a></li>
+                                             <li><a href="page-title-vimeo">Vimeo</a></li>
+                                             <li><a href="page-title-html5">HTML5</a></li>
+                                          </ul>
+                                       </li>
                                     </ul>
                                  </li>
                               </ul>
                            </li>
-                        </ul>
-                     </li>
-                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>                            
-                        <ul class="dropdown-menu">
-                           <li><a href="about-company">About Company</a></li>
-                           <li><a href="about-me">About Me</a></li>
-                           <li><a href="about-team">About Team</a></li>
-                           <li><a href="service">Service</a></li>
-                           <li><a href="contact">Contact 1</a></li>
-                           <li><a href="contact2">Contact 2</a></li>
-                           <li><a href="contact3">Contact 3</a></li>
-                           <li><a href="maintenance">Maintenance</a></li>
-                           <li><a href="coming-soon">Coming Soon</a></li>
-                           <li><a href="404">404</a></li>
-                        </ul>
-                     </li>
-                     <li class="dropdown megamenu-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elements</a>                            
-                        <ul class="dropdown-menu megamenu-content" role="menu">
-                           <li>
-                              <div class="row">
-                                 <div class="col-menu col-md-3">
-                                   <h6 class="title">Elements 1</h6>
-                                    <div class="content">
-                                       <ul class="menu-col">
-                                          <li><a href="element-accordions">Accordion</a></li>
-                                          <li><a href="element-button">Button</a></li>
-                                          <li><a href="element-blockquote">Blockquote</a></li>
-                                          <li><a href="element-client">Client</a></li>
-                                          <li><a href="element-columns">Columns</a></li>
-                                       </ul>
+                           <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>                            
+                              <ul class="dropdown-menu">
+                                 <li><a href="about-company">About Company</a></li>
+                                 <li><a href="about-me">About Me</a></li>
+                                 <li><a href="about-team">About Team</a></li>
+                                 <li><a href="service">Service</a></li>
+                                 <li><a href="contact">Contact 1</a></li>
+                                 <li><a href="contact2">Contact 2</a></li>
+                                 <li><a href="contact3">Contact 3</a></li>
+                                 <li><a href="maintenance">Maintenance</a></li>
+                                 <li><a href="coming-soon">Coming Soon</a></li>
+                                 <li><a href="404">404</a></li>
+                              </ul>
+                           </li>
+                           <li class="dropdown megamenu-fw">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elements</a>                            
+                              <ul class="dropdown-menu megamenu-content" role="menu">
+                                 <li>
+                                    <div class="row">
+                                       <div class="col-menu col-md-3">
+                                          <h6 class="title">Elements 1</h6>
+                                          <div class="content">
+                                             <ul class="menu-col">
+                                                <li><a href="element-accordions">Accordion</a></li>
+                                                <li><a href="element-button">Button</a></li>
+                                                <li><a href="element-blockquote">Blockquote</a></li>
+                                                <li><a href="element-client">Client</a></li>
+                                                <li><a href="element-columns">Columns</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                       <div class="col-menu col-md-3">
+                                          <h6 class="title">Elements 2</h6>                                 
+                                          <div class="content">
+                                             <ul class="menu-col">
+                                                <li><a href="element-counter">Counter</a></li>
+                                                <li><a href="element-dropcap">Dropcap</a></li>
+                                                <li><a href="element-feature-box">Feature Box</a></li>
+                                                <li><a href="element-form">Form</a></li>
+                                                <li><a href="element-heading">Heading Style</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                       <div class="col-menu col-md-3">
+                                          <h6 class="title">Elements 3</h6>                                 
+                                          <div class="content">
+                                             <ul class="menu-col">
+                                                <li><a href="element-list">List Style</a></li>
+                                                <li><a href="element-price-table">Price Table</a></li>
+                                                <li><a href="element-post">Post Style</a></li>
+                                                <li><a href="element-skill">Skill</a></li>
+                                                <li><a href="element-social">Social icons</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                       <div class="col-menu col-md-3">
+                                          <h6 class="title">Elements 4</h6>                                 
+                                          <div class="content">
+                                             <ul class="menu-col">
+                                                <li><a href="element-step-feature">Step Feature</a></li>
+                                                <li><a href="element-tab">Tabs</a></li>
+                                                <li><a href="element-team">Team</a></li>
+                                                <li><a href="element-testimonials">Testimonials</a></li>
+                                                <li><a href="element-timeline">Timelines</a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
                                     </div>
-                                 </div>
-                                 <div class="col-menu col-md-3">
-                                   <h6 class="title">Elements 2</h6>                                 
-                                    <div class="content">
-                                       <ul class="menu-col">
-                                          <li><a href="element-counter">Counter</a></li>
-                                          <li><a href="element-dropcap">Dropcap</a></li>
-                                          <li><a href="element-feature-box">Feature Box</a></li>
-                                          <li><a href="element-form">Form</a></li>
-                                          <li><a href="element-heading">Heading Style</a></li>
-                                       </ul>
-                                    </div>
-                                 </div>
-                                 <div class="col-menu col-md-3">
-                                   <h6 class="title">Elements 3</h6>                                 
-                                    <div class="content">
-                                       <ul class="menu-col">
-                                          <li><a href="element-list">List Style</a></li>
-                                          <li><a href="element-price-table">Price Table</a></li>
-                                          <li><a href="element-post">Post Style</a></li>
-                                          <li><a href="element-skill">Skill</a></li>
-                                          <li><a href="element-social">Social icons</a></li>
-                                       </ul>
-                                    </div>
-                                 </div>
-                                 <div class="col-menu col-md-3">
-                                   <h6 class="title">Elements 4</h6>                                 
-                                    <div class="content">
-                                       <ul class="menu-col">
-                                          <li><a href="element-step-feature">Step Feature</a></li>
-                                          <li><a href="element-tab">Tabs</a></li>
-                                          <li><a href="element-team">Team</a></li>
-                                          <li><a href="element-testimonials">Testimonials</a></li>
-                                          <li><a href="element-timeline">Timelines</a></li>
-                                       </ul>
-                                    </div>
-                                 </div>
-                              </div>
-                           </li>
-                        </ul>
-                     </li>
-                     <li class="dropdown dropdown-left">
-                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog</a>                            
-                        <ul class="dropdown-menu">
-                           <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog Classic</a>                                    
-                              <ul class="dropdown-menu">
-                                 <li><a href="blog-left-side">Left Sidebar</a></li>
-                                 <li><a href="blog-right-side">Right Sidebar</a></li>
+                                 </li>
                               </ul>
                            </li>
-                           <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog Grid</a>                                    
+                           <li class="dropdown dropdown-left">
+                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog</a>                            
                               <ul class="dropdown-menu">
-                                 <li><a href="blog-grid-left-side">Left Sidebar</a></li>
-                                 <li><a href="blog-grid-right-side">Right Sidebar</a></li>
-                                 <li><a href="blog-grid-boxed">Boxed</a></li>
-                                 <li><a href="blog-grid-fullwidth">Fullwidth</a></li>
+                                 <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog Classic</a>                                    
+                                    <ul class="dropdown-menu">
+                                       <li><a href="blog-left-side">Left Sidebar</a></li>
+                                       <li><a href="blog-right-side">Right Sidebar</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog Grid</a>                                    
+                                    <ul class="dropdown-menu">
+                                       <li><a href="blog-grid-left-side">Left Sidebar</a></li>
+                                       <li><a href="blog-grid-right-side">Right Sidebar</a></li>
+                                       <li><a href="blog-grid-boxed">Boxed</a></li>
+                                       <li><a href="blog-grid-fullwidth">Fullwidth</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog Masonry</a>                                    
+                                    <ul class="dropdown-menu">
+                                       <li><a href="blog-masonry-boxed">Boxed</a></li>
+                                       <li><a href="blog-masonry-fullwidth">Fullwidth</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Single Post</a>                                    
+                                    <ul class="dropdown-menu">
+                                       <li><a href="blog-single-left-side">Left Sidebar</a></li>
+                                       <li><a href="blog-single-right-side">Right Sidebar</a></li>
+                                       <li><a href="blog-single-no-side">No Sidebar</a></li>
+                                    </ul>
+                                 </li>
                               </ul>
                            </li>
-                           <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog Masonry</a>                                    
+                           <li class="dropdown dropdown-left">
+                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>                            
                               <ul class="dropdown-menu">
-                                 <li><a href="blog-masonry-boxed">Boxed</a></li>
-                                 <li><a href="blog-masonry-fullwidth">Fullwidth</a></li>
-                              </ul>
-                           </li>
-                           <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Single Post</a>                                    
-                              <ul class="dropdown-menu">
-                                 <li><a href="blog-single-left-side">Left Sidebar</a></li>
-                                 <li><a href="blog-single-right-side">Right Sidebar</a></li>
-                                 <li><a href="blog-single-no-side">No Sidebar</a></li>
+                                 <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Grid</a>                                    
+                                    <ul class="dropdown-menu">
+                                       <li><a href="portfolio-grid-2-col">2 Columns</a></li>
+                                       <li><a href="portfolio-grid-3-col">3 Columns</a></li>
+                                       <li><a href="portfolio-grid-4-col">4 Columns</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Masonry</a>                                    
+                                    <ul class="dropdown-menu">
+                                       <li><a href="portfolio-masonry-2-col">2 Columns</a></li>
+                                       <li><a href="portfolio-masonry-3-col">3 Columns</a></li>
+                                       <li><a href="portfolio-masonry-4-col">4 Columns</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="dropdown">
+                                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Standard</a>                                    
+                                    <ul class="dropdown-menu">
+                                       <li><a href="portfolio-standard-2-col">2 Columns</a></li>
+                                       <li><a href="portfolio-standard-3-col">3 Columns</a></li>
+                                       <li><a href="portfolio-standard-4-col">4 Columns</a></li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="portfolio-details">Single Post</a></li>
                               </ul>
                            </li>
                         </ul>
-                     </li>
-                     <li class="dropdown dropdown-left">
-                        <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>                            
-                        <ul class="dropdown-menu">
-                           <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Grid</a>                                    
-                              <ul class="dropdown-menu">
-                                 <li><a href="portfolio-grid-2-col">2 Columns</a></li>
-                                 <li><a href="portfolio-grid-3-col">3 Columns</a></li>
-                                 <li><a href="portfolio-grid-4-col">4 Columns</a></li>
-                              </ul>
-                           </li>
-                           <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Masonry</a>                                    
-                              <ul class="dropdown-menu">
-                                 <li><a href="portfolio-masonry-2-col">2 Columns</a></li>
-                                 <li><a href="portfolio-masonry-3-col">3 Columns</a></li>
-                                 <li><a href="portfolio-masonry-4-col">4 Columns</a></li>
-                              </ul>
-                           </li>
-                           <li class="dropdown">
-                              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Standard</a>                                    
-                              <ul class="dropdown-menu">
-                                 <li><a href="portfolio-standard-2-col">2 Columns</a></li>
-                                 <li><a href="portfolio-standard-3-col">3 Columns</a></li>
-                                 <li><a href="portfolio-standard-4-col">4 Columns</a></li>
-                              </ul>
-                           </li>
-                           <li><a href="portfolio-details">Single Post</a></li>
-                        </ul>
-                     </li>
-                  </ul>
                      </div>
                      <!-- /.navbar-collapse -->
                   </div>
@@ -357,7 +357,7 @@
                   </div>
                </section>
                <!-- End Banner -->
-               <!-- Welcome -->
+               <!-- Welcome2 -->
                <section class="pt-0 top-minus">
                   <div class="container">
                      <div class="row">
@@ -366,7 +366,7 @@
                               <div class="col-md-6 pull-right sm-mb-4"> <img class="img-responsive" src="{{ asset('templates/kkr021/images/construction/images1.jpg')}}" alt="" /> </div>
                               <div class="col-md-6">
                                  <div class="heading-block">
-                                    <span class="text-uppercase solid-weight theme-text">Welcome to Pecto</span>
+                                    <span class="text-uppercase solid-weight theme-text">Welcome2 to Pecto</span>
                                     <h4 class="solid-weight">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
                                  </div>
                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
@@ -402,7 +402,7 @@
                      </div>
                   </div>
                </section>
-               <!-- End Welcome -->
+               <!-- End Welcome2 -->
                <!-- Feature -->
                <section class="p-0 feature-section feature-construction">
                   <div class="container-fluid">
@@ -495,51 +495,51 @@
                               <h3>FROM PLANNING TO IMPLEMENTATION</h3>
                            </div>
                         </div>
-                     
-                     <div class="col-sm-12">
-                     	<div class="owl-carousel owl-theme light-arrow" data-items="4" data-md-items="3" data-sm-items="3" data-xs-items="2" data-nav-dots="false" data-nav-arrow="false" data-auto-play="true"  data-space="10">
-
-                        <div class="item">
-                           <div class="team">
-                              <div class="member-image clearfix"> <a class="arrow-btn" href="#"><i class="lnr lnr-arrow-right"></i></a> <img class="img-responsive" src="{{ asset('templates/kkr021/images/construction/member1.jpg')}}" alt="" /></div>
-                              <div class="team-info">
-                                 <h3 class="member-name">Lucas Black</h3>
-                                 <h5 class="member-position">Chief Architect</h5>
-                                 <div class="social"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
+                        
+                        <div class="col-sm-12">
+                           <div class="owl-carousel owl-theme light-arrow" data-items="4" data-md-items="3" data-sm-items="3" data-xs-items="2" data-nav-dots="false" data-nav-arrow="false" data-auto-play="true"  data-space="10">
+                              
+                              <div class="item">
+                                 <div class="team">
+                                    <div class="member-image clearfix"> <a class="arrow-btn" href="#"><i class="lnr lnr-arrow-right"></i></a> <img class="img-responsive" src="{{ asset('templates/kkr021/images/construction/member1.jpg')}}" alt="" /></div>
+                                    <div class="team-info">
+                                       <h3 class="member-name">Lucas Black</h3>
+                                       <h5 class="member-position">Chief Architect</h5>
+                                       <div class="social"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="item">
+                                 <div class="team">
+                                    <div class="member-image clearfix"> <a class="arrow-btn" href="#"><i class="lnr lnr-arrow-right"></i></a> <img class="img-responsive" src="{{ asset('templates/kkr021/images/construction/member2.jpg')}}" alt="" /></div>
+                                    <div class="team-info">
+                                       <h3 class="member-name">Lucy Li</h3>
+                                       <h5 class="member-position">Interior Designer</h5>
+                                       <div class="social"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="item">
+                                 <div class="team">
+                                    <div class="member-image clearfix"> <a class="arrow-btn" href="#"><i class="lnr lnr-arrow-right"></i></a> <img class="img-responsive" src="{{ asset('templates/kkr021/images/construction/member3.jpg')}}" alt="" /></div>
+                                    <div class="team-info">
+                                       <h3 class="member-name">Jack Smith</h3>
+                                       <h5 class="member-position">Engineer</h5>
+                                       <div class="social"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="item">
+                                 <div class="team">
+                                    <div class="member-image clearfix"> <a class="arrow-btn" href="#"><i class="lnr lnr-arrow-right"></i></a> <img class="img-responsive" src="{{ asset('templates/kkr021/images/construction/member4.jpg')}}" alt="" /></div>
+                                    <div class="team-info">
+                                       <h3 class="member-name">James Bell</h3>
+                                       <h5 class="member-position">Engineer</h5>
+                                       <div class="social"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
+                                    </div>
+                                 </div>
                               </div>
                            </div>
-                        </div>
-                        <div class="item">
-                           <div class="team">
-                              <div class="member-image clearfix"> <a class="arrow-btn" href="#"><i class="lnr lnr-arrow-right"></i></a> <img class="img-responsive" src="{{ asset('templates/kkr021/images/construction/member2.jpg')}}" alt="" /></div>
-                              <div class="team-info">
-                                 <h3 class="member-name">Lucy Li</h3>
-                                 <h5 class="member-position">Interior Designer</h5>
-                                 <div class="social"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="item">
-                           <div class="team">
-                              <div class="member-image clearfix"> <a class="arrow-btn" href="#"><i class="lnr lnr-arrow-right"></i></a> <img class="img-responsive" src="{{ asset('templates/kkr021/images/construction/member3.jpg')}}" alt="" /></div>
-                              <div class="team-info">
-                                 <h3 class="member-name">Jack Smith</h3>
-                                 <h5 class="member-position">Engineer</h5>
-                                 <div class="social"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="item">
-                           <div class="team">
-                              <div class="member-image clearfix"> <a class="arrow-btn" href="#"><i class="lnr lnr-arrow-right"></i></a> <img class="img-responsive" src="{{ asset('templates/kkr021/images/construction/member4.jpg')}}" alt="" /></div>
-                              <div class="team-info">
-                                 <h3 class="member-name">James Bell</h3>
-                                 <h5 class="member-position">Engineer</h5>
-                                 <div class="social"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
-                              </div>
-                           </div>
-                        </div>
-                        </div>
                         </div>
                      </div>
                   </div>
@@ -878,4 +878,4 @@
                <!-- custom -->
                <script type="text/javascript" src="{{ asset('templates/kkr021/js/custom.js')}}"></script>
             </body>
-         </html>
+            </html>
